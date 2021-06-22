@@ -1,0 +1,442 @@
+/* Desktop Display Media Query */
+@media screen and (min-width: 601px) {
+
+#top-section {
+  display: flex;
+}
+#header-img {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+    height: 40px;
+    margin-left: 45px;
+}
+    
+body {
+    font-size: 15px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/12ee6265-e947-474a-a378-6d78ab0d1117/d8fr7iz-082cab4c-3f87-47e1-b2f0-efdb504372e5.jpg/v1/fill/w_1024,h_576,q_75,strp/super_hero_whatsapp_background_by_x_ama_d8fr7iz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC8xMmVlNjI2NS1lOTQ3LTQ3NGEtYTM3OC02ZDc4YWIwZDExMTdcL2Q4ZnI3aXotMDgyY2FiNGMtM2Y4Ny00N2UxLWIyZjAtZWZkYjUwNDM3MmU1LmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.vMsSrJL87xcHSN4_yT8cSlEGqymaknC5rvamCRrnlGU);
+}
+
+header {
+    position: fixed;
+    stroke: none;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    font-family: 'Open Sans',sans-serif; 
+    background-color: rgba(46, 49, 49, 1);
+    border-color: #404040;
+    color: #111111;
+    border-width: 2px;
+    border-style: solid;
+    transition: background-color 250ms ease;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+
+nav {
+    
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    float: right;
+    height: 45px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+#nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#nav-bar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*Add a color to the active/current link*/
+#nav-bar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+Style the form - display items horizontally 
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+Add some margins for each label 
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+Style the input fields 
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+ Style the submit button 
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+#video {
+    height=100%; 
+    width:400px;
+    float:right;
+    margin-right: 40px;
+    margin-top: 20px; 
+}
+
+
+p:first-of-type:first-letter
+    {
+    /*position: relative;
+    float: left;
+    margin-right: 9px;*/
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.p1 {
+    
+    display: block;
+    height: 300px;
+    width: 800px;
+    padding-left: 50px;
+    margin-top: 60px;
+    margin-left: -5px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 21px;
+    text-indent: -10px;
+   
+
+    
+}
+
+
+
+.product
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.plus 
+    {
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 700;}
+}
+
+
+
+#packages-container {
+    font-family: sans-serif;
+    font-size: 20px;
+        display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 15% 0 15%;
+}
+.package-labels {
+  text-align: center;
+}
+.package-lists {
+ margin: 24px 0 0 -26px;
+}
+.photo-sizes {
+  font-style: normal;
+}
+#package-1-container {
+  background-color: #cdd0d4 ;
+  text-align: center;
+  margin: 1em 0 0 0;
+  padding: 2em 1em 2em 1em;
+  width: 20%;
+  height: 5%;
+  border-radius: 10%;
+        border-style: groove;
+
+}
+#package-2-container 
+{
+  background-color: #F9E79F;
+  text-align: center;
+  margin: 1em 0 0 0;
+  padding: 2em 1em 2em 1em;
+  width: 20%;
+  height: 5%;
+  border-radius: 10%;
+        border-style: groove;
+
+}
+#package-3-container 
+{
+  background-color: #D1F2EB;
+  text-align: center;
+  margin: 1em 0 0 0;
+  padding: 2em 1em 2em 1em;
+  width: 20%;
+  height: 5%;
+  border-radius: 10%;
+        border-style: groove;
+
+    }
+}
+/* Importing the Roboto font from Google Fonts. */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+/* Set font of all elements to 'Roboto' */
+* {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/* Remove outline of all elements on focus */
+*:focus {
+	outline: 0;
+}
+
+
+
+h3 {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.container {
+    width: 40%;
+    height: 40%;
+	padding: 5px 10px 10px 5px;
+	margin: 38px 12px;
+	background: #E3F2FD;
+	border-radius: 4px;
+ margin-left: auto;
+	margin-right: auto;
+}
+
+/* Add styles to 'label' selector */
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid green;
+}
+
+/* Add styles to the submit button */
+input[type=submit] {
+	background: #64B5F6;
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 5px 10px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+input[type=submit]:focus {
+	background: #A5D6A7;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+input[type=submit]:hover {
+	background: #2196F3;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
+
+footer {
+  display: block;
+    background-color: grey;
+    height: 60px;
+    color: white;
+}
+
+.gradient-text1 {
+  /* Fallback: Set a background color.*/ 
+  background-color: red;
+  
+  /* Create the gradient. */
+  background: rgb(2,0,36);
+background: linear-gradient(118deg, rgba(2,0,36,1) 0%, rgba(34,34,193,1) 62%, rgba(0,212,255,1) 100%);
+  
+    
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+/* Tutorial on https://fossheim.io/writing/posts/css-text-gradient. */
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #6c36d8;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0a4234 50%,
+    #f2cfed 50%
+  );
+  
+  /* Set the background size and repeat properties. */
+  background-size: 270%;
+  background-repeat: repeat;
+  background-position: top right;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  
+  animation: button-animation 0.65s 0.15s ease-out forwards;
+}
+
+.pay a:hover, .pay a:hover span{
+    animation: button-animation-rev 0.65s ease-out forwards;
+}
+
+.pay a:hover {
+  box-shadow: 3px 2px 10px 1px rgba(0,0,0,0.15);
+  transition: 0.5s;
+}
+
+@keyframes button-animation {
+  0% {
+    background-position: top right;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+
+@keyframes button-animation-rev {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+.pay a {
+ /* margin-top: 1em;
+  margin-top: calc(50vh - 3em);
+  margin-left: auto;
+  margin-right: auto;*/
+  background-image: linear-gradient(45deg, #f2cfed 50%, #0a4234 50%);
+  background-size: 270%;
+  background-repeat: repeat;
+  background-position: top right;
+  animation: button-animation 0.65s 0.15s ease-out forwards;
+  
+  border-radius: 0.5em;
+  text-decoration: none;
+  box-shadow: 7px 4px 20px 1px rgba(0,0,0,0.15);
+  padding: 6px 30px;
+  cursor: pointer;
+}
+
+.pay a span {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: -0.25em;
+  width: 100%;
+  padding: 0 1.5em;
+}
